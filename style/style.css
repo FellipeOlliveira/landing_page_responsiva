@@ -129,3 +129,26 @@ body {
 .home-img {
     width: 100%;
 }
+
+@media (max-width: 785px) {
+    .navigation{
+        padding: 18px 20px;
+    }
+    .menu{
+        display: block;
+    }
+    .nav-menu{
+        position: fixed;
+        right: 100%;
+        top: 70px;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        background-color: var(--white);
+        gap: -10px;
+        transition: 0.3s;
+    }
+    .nav-item{
+        margin: 16px 0;
+    }
+}
